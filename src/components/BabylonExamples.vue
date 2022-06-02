@@ -7,13 +7,13 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { BasicScene } from '@/BabylonExamples/BasicScene';
+import { CustomLoaders } from '@/BabylonExamples/CustomLoaders';
 
 export default defineComponent({
   name: 'BabylonExamples',
   mounted(){
     const canvas = document.querySelector("canvas")!;
-    new BasicScene(canvas);
+    new CustomLoaders(canvas);
   }
 });
 </script>
